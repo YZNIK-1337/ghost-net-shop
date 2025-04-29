@@ -1,0 +1,74 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0e0e0e;
+    color: white;
+}
+
+header {
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #6e00ff, #a74eff);
+}
+
+.privileges {
+    padding: 40px;
+    text-align: center;
+}
+
+.privilege-card {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #a74eff;
+}
+
+button {
+    background: #6e00ff;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #8f36ff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+}
+
+footer a {
+    color: #aaa;
+    margin: 0 15px;
+    text-decoration: none;
+}
